@@ -8,8 +8,7 @@ spec:
   project: default
   source:
     repoURL: https://github.com/rik2803/argocd-test.git
-    path:
-    kustomize-app
+    path: kustomize-app
     targetRevision: HEAD
   destination:
     server: https://kubernetes.default.svc
